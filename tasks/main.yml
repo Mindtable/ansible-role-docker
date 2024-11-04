@@ -33,7 +33,7 @@
 
 - name: Install Docker-Compose&Set Permission
   ansible.builtin.get_url:
-    url: "{{ docker_download_url }}"
+    url: "{{ docker_compose_download_url }}"
     dest: /usr/local/bin/docker-compose
     mode: '755'
 

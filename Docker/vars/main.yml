@@ -1,6 +1,0 @@
----
-# vars file for Docker
-docker_download_url: https://github.com/docker/compose/releases/download/1.29.2/docker-compose-Linux-x86_64
-docker_ce_version: 5:23.0.1-1~ubuntu.22.04~jammy
-docker_ce_cli_version: 5:23.0.1-1~ubuntu.22.04~jammy
-docker_gpg_apt_key_download_url: https://download.docker.com/linux/ubuntu/gpg
