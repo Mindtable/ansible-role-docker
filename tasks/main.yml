@@ -27,10 +27,6 @@
     groups: "docker,sudo"
     append: true
 
-- name: Install Docker module for Python
-  ansible.builtin.pip:
-    name: docker
-
 - name: Install Docker-Compose&Set Permission
   ansible.builtin.get_url:
     url: "{{ docker_compose_download_url }}"
